@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <style>
+        li {
+            font-weight: 700;
+            font-size: 150%;
+        }
+
+        span{
+            display: block;
+            color: red;
+            font-weight: 700;
+            font-size: 125%;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <H1>Zewnętszny arkusz stylów</H1>
+    <ol>
+        <li>)Składnia teoretyczna</li>
+            <textarea rows="6" cols=80>
+                <head>
+                    <style type="text/css">
+                    selektor1 { cecha: wartość; cecha2: wartość2... }
+                    selektor2 { cecha: wartość; cecha2: wartość2... }
+                    </style>
+                </head>
+            </textarea>
+
+        <li>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
+            ile razy może on występować w dokumencie, jako podłączenie stylu CSS?       
+        </li>
+            <span>Styl zewnętrzny jest w stawiany w tagu < head > </span>
+            <textarea rows="7" cols="50">
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+            </textarea>
+            <span>Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów </span>
+
+        <li>Jak jest najprostsza forma wstawiania stylu zewnętrznego  otoczony ramką (może
+            być tabela jedno komórkowa?
+        </li>
+            <span>Po przez head</span>
+        
+            <li>Jak jest najprostsza forma wstawiania stylu zewnętrznego  otoczony ramką (może
+                być tabela jedno komórkowa?
+            </li>
+    <textarea rows="2" cols="40">          
+<link rel="stylesheet" href="style.css">   
+            </textarea>
+            <li>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad
+                musi być zachowana przy większej ilości dołączanych styli?
+            </li>
+            <li>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style
+                są definiowane w różnych arkuszach styli podłączone do tego samego arkusza
+            </li>
+            <span>Element strony zostanie sformatowan poprez styl które będzie najwyżej w chierarchi</span>
+            <li>
+            Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?
+            </li>
+
+    </ol>
+
+</body>
+
+</html>
